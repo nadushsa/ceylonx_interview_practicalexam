@@ -1,0 +1,307 @@
+.home {
+    background-color: #fafafa;
+
+    .dotLine {
+        position: absolute;
+        left: 10px;
+        top: 100px;
+        width: 180px;
+    }
+
+    .rocket {
+        position: absolute;
+        left: 200px;
+        top: 85px;
+    }
+
+    .featured {
+        .container {
+            .row {
+                .left {
+                    h1 {
+                        margin: 50px 0px;
+                        font-weight: bold;
+                    }
+            
+                    .book {
+                        font-weight: bold;
+                        margin: 20px 0px;
+                    }
+            
+                    .btnGroup {
+                        .btnArea {
+                            button {
+                                width: 100%;
+                                padding: 10px;
+                                background-color: white;
+                                border: 1px solid grey;
+                                border-radius: 9px;
+                                margin: 5px 0px;
+                                box-shadow: 0px 2px 2px grey;
+                                font-weight: bolder;
+                            }
+                        }
+                    }
+            
+                    .btnMain {
+                        width: 90%;
+                        margin: 30px 0px;
+                        padding: 15px;
+                        background-color: #FF7B3A;
+                        border-radius: 9px;
+                        border: none;
+                        color: white;
+                        font-weight: bolder;
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+            
+                    .offer {
+                        text-align: center;
+            
+                        .₹0 {
+                            font-weight: bold;
+                            font-size: 150%;
+                            text-decoration: line-through;
+                        }
+            
+                        .off {
+                            color: green;
+                            font-weight: 500;
+                        }
+                    }
+            
+                    .join {
+                        text-align: center;
+                        color: grey;
+                        font-weight: 500;
+                    }
+                }
+            
+                .right {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: relative;
+                    padding: 5px 0px 100px 0px;
+            
+                    .imgFeatured {
+                        width: 100%;
+                    }
+            
+                    .imgCommaStart {
+                        position: absolute;
+                        left: 5%;
+                        top: 85%;
+                    }
+            
+                    .imgCommaEnd {
+                        position: absolute;
+                        left: 75%;
+                        top: 5%;
+                    }
+                }
+            }
+        }
+    }
+
+    .section1 {
+        padding: 100px 0px;
+
+        .container {
+            .mathMastery {
+                text-align: center;
+            }
+    
+            .mathWizard {
+                text-align: center;
+                margin-bottom: 70px;
+            }
+
+            .textboxArea {
+                .row {
+                    .box {
+                        margin-bottom: 10px;
+
+                        .boxPink {
+                            background-color: #FCE4EC;
+                            border-radius: 20px;
+                            overflow: hidden;
+                            padding: 20px;
+                            height: 300px;
+
+                            .mainPoint {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                margin-bottom: 20px;
+
+                                img {
+                                    width: 50px;
+                                }
+
+                                p {
+                                   font-size: 80%;
+                                   margin: 0px; 
+                                   font-weight: bold;
+                                }
+                            }
+
+                            .point {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: flex-start;
+                                margin-bottom: 5px;
+
+                                img {
+                                    width: 5px;
+                                    height: 5px;
+                                    margin-right: 5px;
+                                    margin-top: 8px;
+                                }
+
+                                p {
+                                    font-size: 75%;
+                                    margin: 0px;
+                                    color: #BD6E89;
+                                }
+                            }
+                        }
+                    }
+
+                    .box {
+                        margin-bottom: 10px;
+
+                        .boxOrange {
+                            background-color: #FFF0CB;
+                            border-radius: 20px;
+                            overflow: hidden;
+                            padding: 20px;
+                            height: 300px;
+
+                            .mainPoint {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                margin-bottom: 20px;
+
+                                img {
+                                    width: 50px;
+                                }
+
+                                p {
+                                   font-size: 80%;
+                                   margin: 0px; 
+                                   font-weight: bold;
+                                }
+                            }
+
+                            .point {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: flex-start;
+                                margin-bottom: 5px;
+
+                                img {
+                                    width: 5px;
+                                    height: 5px;
+                                    margin-right: 5px;
+                                    margin-top: 8px;
+                                }
+
+                                p {
+                                    font-size: 75%;
+                                    margin: 0px;
+                                    color: #A58639;
+                                }
+                            }
+                        }
+                    }
+
+                    .box {
+                        margin-bottom: 10px;
+
+                        .boxBlue {
+                            background-color: #EBF2FF;
+                            border-radius: 20px;
+                            overflow: hidden;
+                            padding: 20px;
+                            height: 300px;
+
+                            .mainPoint {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                margin-bottom: 20px;
+
+                                img {
+                                    width: 50px;
+                                }
+
+                                p {
+                                   font-size: 80%;
+                                   margin: 0px; 
+                                   font-weight: bold;
+                                }
+                            }
+
+                            .point {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: flex-start;
+                                margin-bottom: 5px;
+
+                                img {
+                                    width: 5px;
+                                    height: 5px;
+                                    margin-right: 5px;
+                                    margin-top: 8px;
+                                }
+
+                                p {
+                                    font-size: 75%;
+                                    margin: 0px;
+                                    color: #28529F;
+                                }
+                            }
+                        }
+                    }
+
+                    .masterBanner {
+                        background-image: url('../../../public/img/master-banner.png');
+                        background-position: center;
+                        background-repeat: no-repeat;
+                    }
+                }
+            }
+        }
+    }
+
+    .section2 {
+        padding: 100px 0px;
+
+        .container {
+            .culSkills {
+                text-align: center;
+            }
+
+            .ourExperts {
+                text-align: center;
+                margin-bottom: 70px;
+            }
+
+            .imgSelect {
+                width: 45%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 50px;
+            }
+
+            .imgBanner {
+                width: 100%;
+            }
+        }
+    }
+}

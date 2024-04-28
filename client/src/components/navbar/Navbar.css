@@ -1,0 +1,111 @@
+.navbarArea {
+    .navbar {
+        height: 120px;
+        width: 100%;
+        background-color: white !important;
+        
+        .container {
+            background-color: white;
+
+            .navbar-brand {
+                .brandImg {
+                    width: 200px;
+                }
+            }
+
+            .collapse {
+                .navbar-nav {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .left {
+                        display: flex;
+                        flex-direction: row;
+
+                        .nav-link {
+                            .btnImgAbout {
+                                height: 40px;
+                            }
+
+                            .btnImgAbout:hover {
+                                background-color: #2CC84D;
+                                border-radius: 15px;
+                                transition: 0.5s;
+                            }
+
+                            .btnImgMath {
+                                height: 40px;
+                            }
+
+                            .btnImgMath:hover {
+                                background-color: #2CC84D;
+                                border-radius: 15px;
+                                transition: 0.5s;
+                            }
+                        }
+                    }
+
+                    .right {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+
+                        .nav-link {
+                            align-items: center;
+
+                            .btnImgContact {
+                                height: 50px;
+                            }
+
+                            .btnRegister {
+                                padding: 8px 20px;
+                                border-radius: 5px;
+                                background-color: #2CC84D;
+                                color: white;
+                                border: none;
+                            }
+
+                            .btnImgLogin {
+                                height: 41px;
+                            }
+                        }
+
+                        .user {
+                            display: flex;
+                            align-items: center;
+                            flex-direction: row;
+
+                            .username {
+                                font-weight: bold;
+                            }
+                        }
+                    }
+
+                    @media(max-width: 1024px) {
+                        .right {
+                            display: flex;
+                            justify-content: flex-start;
+
+                            .user {
+                                display: flex;
+                                flex-direction: column;
+                            }
+                        }
+                    }
+                }
+
+                @media (max-width: 1024px) {
+                    .navbar-nav {
+                        align-items: flex-start;
+
+                        .left, .right {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
